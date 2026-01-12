@@ -1,5 +1,4 @@
 services:
-  # Python/Node/Go/Rust/Docker web service
   - type: web
     name: poseidon-api
     env: node
@@ -14,7 +13,6 @@ services:
       - key: PORT
         value: 10000
 
-  # Static site configuration
   - type: web
     name: poseidon-web
     env: static
@@ -26,4 +24,4 @@ services:
         fromService:
           type: web
           name: poseidon-api
-          property: url
+          envVarKey: RENDER_EXTERNAL_URL
