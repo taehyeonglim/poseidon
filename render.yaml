@@ -1,7 +1,8 @@
 services:
+  # Backend API (Web Service)
   - type: web
     name: poseidon-api
-    env: node
+    runtime: node
     plan: free
     buildCommand: npm install && npm run build
     startCommand: npm start
@@ -10,13 +11,14 @@ services:
         value: production
       - key: PROVIDER_MODE
         value: mock
-      - key: PORT
-        value: 10000
+      # 보통 Render가 PORT를 자동 주입하므로 굳이 안 써도 됩니다.
+      # - key: PORT
+      #   value: 10000
 
+  # Frontend (Static Site)
   - type: web
     name: poseidon-web
-    env: static
-    plan: free
+    runtime: static
     buildCommand: cd client && npm install && npm run build
     staticPublishPath: client/dist
     envVars:
