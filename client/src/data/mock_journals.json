@@ -1,0 +1,182 @@
+[
+    {
+        "id": "ijcscl",
+        "name": "International Journal of Computer-Supported Collaborative Learning",
+        "nameKo": "국제 컴퓨터 지원 협력 학습 저널",
+        "discipline": "Learning Sciences",
+        "impactFactor": 4.2,
+        "description": "Leading journal in CSCL research, focusing on technology-enhanced collaborative learning environments.",
+        "scopeTags": [
+            "collaborative learning",
+            "CSCL",
+            "educational technology",
+            "social learning",
+            "AI in education"
+        ]
+    },
+    {
+        "id": "jls",
+        "name": "Journal of the Learning Sciences",
+        "nameKo": "학습 과학 저널",
+        "discipline": "Learning Sciences",
+        "impactFactor": 5.1,
+        "description": "Premier venue for learning sciences research spanning cognitive, social, and design perspectives.",
+        "scopeTags": [
+            "learning sciences",
+            "cognition",
+            "design-based research",
+            "situated learning",
+            "knowledge building"
+        ]
+    },
+    {
+        "id": "etrd",
+        "name": "Educational Technology Research and Development",
+        "nameKo": "교육 기술 연구 개발",
+        "discipline": "Educational Technology",
+        "impactFactor": 3.8,
+        "description": "Research on design, development, and evaluation of instructional technologies.",
+        "scopeTags": [
+            "instructional design",
+            "educational technology",
+            "e-learning",
+            "multimedia learning",
+            "assessment"
+        ]
+    },
+    {
+        "id": "comped",
+        "name": "Computers & Education",
+        "nameKo": "컴퓨터와 교육",
+        "discipline": "Educational Technology",
+        "impactFactor": 8.9,
+        "description": "High-impact journal covering all aspects of computing in educational contexts.",
+        "scopeTags": [
+            "educational technology",
+            "learning analytics",
+            "online learning",
+            "AI in education",
+            "digital literacy"
+        ]
+    },
+    {
+        "id": "bjet",
+        "name": "British Journal of Educational Technology",
+        "nameKo": "영국 교육 기술 저널",
+        "discipline": "Educational Technology",
+        "impactFactor": 4.7,
+        "description": "International journal on technology-enhanced teaching and learning research.",
+        "scopeTags": [
+            "technology-enhanced learning",
+            "pedagogy",
+            "teacher education",
+            "digital tools",
+            "assessment"
+        ]
+    },
+    {
+        "id": "ile",
+        "name": "Interactive Learning Environments",
+        "nameKo": "상호작용 학습 환경",
+        "discipline": "Learning Sciences",
+        "impactFactor": 3.2,
+        "description": "Research on interactive and adaptive learning systems and environments.",
+        "scopeTags": [
+            "adaptive learning",
+            "intelligent tutoring",
+            "simulation",
+            "game-based learning",
+            "virtual reality"
+        ]
+    },
+    {
+        "id": "jcal",
+        "name": "Journal of Computer Assisted Learning",
+        "nameKo": "컴퓨터 보조 학습 저널",
+        "discipline": "Educational Technology",
+        "impactFactor": 4.0,
+        "description": "Research on computer-based learning technologies and their applications.",
+        "scopeTags": [
+            "computer-assisted learning",
+            "mobile learning",
+            "blended learning",
+            "personalization",
+            "feedback"
+        ]
+    },
+    {
+        "id": "lti",
+        "name": "Learning, Media and Technology",
+        "nameKo": "학습, 미디어, 기술",
+        "discipline": "Media & Education",
+        "impactFactor": 3.5,
+        "description": "Critical perspectives on media and technology in learning contexts.",
+        "scopeTags": [
+            "media literacy",
+            "critical pedagogy",
+            "social media",
+            "digital culture",
+            "informal learning"
+        ]
+    },
+    {
+        "id": "aied",
+        "name": "International Journal of Artificial Intelligence in Education",
+        "nameKo": "국제 인공지능 교육 저널",
+        "discipline": "AI in Education",
+        "impactFactor": 4.9,
+        "description": "AI and machine learning applications in educational settings.",
+        "scopeTags": [
+            "AI in education",
+            "intelligent tutoring systems",
+            "learning analytics",
+            "natural language processing",
+            "adaptive learning"
+        ]
+    },
+    {
+        "id": "jrst",
+        "name": "Journal of Research in Science Teaching",
+        "nameKo": "과학 교육 연구 저널",
+        "discipline": "Science Education",
+        "impactFactor": 4.6,
+        "description": "Leading journal for research on science teaching and learning.",
+        "scopeTags": [
+            "science education",
+            "inquiry learning",
+            "conceptual change",
+            "STEM",
+            "argumentation"
+        ]
+    },
+    {
+        "id": "tlt",
+        "name": "IEEE Transactions on Learning Technologies",
+        "nameKo": "IEEE 학습 기술 논문지",
+        "discipline": "Educational Technology",
+        "impactFactor": 3.7,
+        "description": "Technical research on learning technologies and their engineering.",
+        "scopeTags": [
+            "learning technologies",
+            "learning management systems",
+            "educational data mining",
+            "standards",
+            "interoperability"
+        ]
+    },
+    {
+        "id": "ijed",
+        "name": "International Journal of Educational Development",
+        "nameKo": "국제 교육 개발 저널",
+        "discipline": "Education Policy",
+        "impactFactor": 2.8,
+        "description": "Research on educational development in global contexts.",
+        "scopeTags": [
+            "education policy",
+            "development",
+            "equity",
+            "access",
+            "global education"
+        ]
+    }
+]

@@ -1,0 +1,54 @@
+.brief-panel {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.brief-content {
+    line-height: 1.8;
+    color: var(--color-text);
+}
+
+.brief-content h2 {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    margin: 0 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--color-accent);
+}
+
+.brief-content h3 {
+    font-size: 1.15rem;
+    color: var(--color-text);
+    margin: 1.5rem 0 0.75rem;
+}
+
+.brief-content p {
+    margin: 0 0 1rem;
+}
+
+.brief-content strong {
+    color: var(--color-primary);
+}
+
+.brief-content ul {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+}
+
+.brief-content li {
+    margin-bottom: 0.5rem;
+}
+
+.brief-footer {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--color-border);
+}
+
+.brief-timestamp {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+}

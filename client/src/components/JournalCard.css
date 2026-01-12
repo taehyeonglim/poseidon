@@ -1,0 +1,180 @@
+.journal-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.journal-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--color-accent), var(--color-primary));
+    opacity: 0;
+    transition: opacity 0.25s ease;
+}
+
+.journal-card:hover,
+.journal-card:focus {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0, 48, 73, 0.15);
+    border-color: var(--color-accent);
+    outline: none;
+}
+
+.journal-card:hover::before,
+.journal-card:focus::before {
+    opacity: 1;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin: 0;
+    line-height: 1.3;
+}
+
+.card-discipline {
+    flex-shrink: 0;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.75rem;
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.card-description {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    margin: 0 0 1rem;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-metrics {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.fit-score {
+    flex: 1;
+}
+
+.score-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    margin-bottom: 0.35rem;
+    color: var(--color-text-muted);
+}
+
+.score-value {
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.score-bar {
+    height: 8px;
+    background: var(--color-border);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.score-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.5s ease;
+}
+
+.score-fill.score-high {
+    background: linear-gradient(90deg, #22c55e, #16a34a);
+}
+
+.score-fill.score-medium {
+    background: linear-gradient(90deg, #f59e0b, #d97706);
+}
+
+.score-fill.score-low {
+    background: linear-gradient(90deg, #f87171, #dc2626);
+}
+
+.impact-factor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background: var(--color-bg);
+    border-radius: 8px;
+}
+
+.if-label {
+    font-size: 0.65rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.if-value {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.match-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.8rem;
+    background: rgba(68, 189, 174, 0.1);
+    color: var(--color-accent-dark);
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
+
+.scope-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.scope-tag {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    background: var(--color-bg);
+    color: var(--color-text-muted);
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .card-header {
+        flex-direction: column;
+    }
+
+    .card-discipline {
+        align-self: flex-start;
+    }
+}

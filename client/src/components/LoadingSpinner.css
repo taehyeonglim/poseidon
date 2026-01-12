@@ -1,0 +1,47 @@
+.loading-spinner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    gap: 1.5rem;
+}
+
+.spinner-icon {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.wave {
+    width: 12px;
+    height: 40px;
+    background: linear-gradient(180deg, var(--color-accent) 0%, var(--color-primary) 100%);
+    border-radius: 6px;
+    animation: wave 1s ease-in-out infinite;
+}
+
+.wave:nth-child(2) {
+    animation-delay: 0.15s;
+}
+
+.wave:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+@keyframes wave {
+
+    0%,
+    100% {
+        transform: scaleY(0.5);
+    }
+
+    50% {
+        transform: scaleY(1);
+    }
+}
+
+.spinner-message {
+    font-size: 1rem;
+    color: var(--color-text-muted);
+    margin: 0;
+}

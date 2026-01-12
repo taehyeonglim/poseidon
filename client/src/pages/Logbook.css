@@ -1,0 +1,146 @@
+.logbook {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.logbook-nav {
+    margin-bottom: 0.5rem;
+}
+
+.back-link {
+    color: var(--color-accent);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+}
+
+.back-link:hover {
+    color: var(--color-accent-dark);
+}
+
+.logbook-header {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    padding: 2rem;
+}
+
+.header-main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.journal-name {
+    font-size: 1.75rem;
+    color: var(--color-text);
+    margin: 0;
+    line-height: 1.3;
+}
+
+.discipline-badge {
+    flex-shrink: 0;
+    font-size: 0.85rem;
+    padding: 0.35rem 1rem;
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.journal-name-ko {
+    font-size: 1.1rem;
+    color: var(--color-text-muted);
+    margin: 0 0 1rem;
+}
+
+.journal-description {
+    font-size: 1rem;
+    color: var(--color-text);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.metrics-section {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.metric-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+}
+
+.metric-label {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    margin-bottom: 0.5rem;
+}
+
+.metric-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.trends-section {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    padding: 2rem;
+}
+
+.section-title {
+    font-size: 1.25rem;
+    color: var(--color-text);
+    margin: 0 0 1.5rem;
+}
+
+.actions-section {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.brief-button {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 2.5rem;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-primary) 100%);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.brief-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(68, 189, 174, 0.4);
+}
+
+@media (max-width: 768px) {
+    .header-main {
+        flex-direction: column;
+    }
+
+    .discipline-badge {
+        align-self: flex-start;
+    }
+
+    .metrics-section {
+        flex-direction: column;
+    }
+}

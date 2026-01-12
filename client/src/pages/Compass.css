@@ -1,0 +1,30 @@
+.compass {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.compass-header {
+    text-align: center;
+}
+
+.compass-title {
+    font-size: 2rem;
+    color: var(--color-text);
+    margin: 0 0 0.5rem;
+}
+
+.compass-subtitle {
+    font-size: 1rem;
+    color: var(--color-text-muted);
+    margin: 0;
+}
+
+.search-refine {
+    display: flex;
+    justify-content: center;
+}
+
+.results-section {
+    margin-top: 1rem;
+}

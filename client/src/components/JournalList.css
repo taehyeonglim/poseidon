@@ -1,0 +1,21 @@
+.journal-list {
+    width: 100%;
+}
+
+.results-count {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    margin-bottom: 1.5rem;
+}
+
+.journals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .journals-grid {
+        grid-template-columns: 1fr;
+    }
+}

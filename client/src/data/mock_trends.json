@@ -1,0 +1,278 @@
+{
+    "ijcscl": {
+        "journalId": "ijcscl",
+        "keywords": [
+            {
+                "name": "AI 협력자",
+                "nameEn": "AI collaborators",
+                "frequency": 85,
+                "growth": 42
+            },
+            {
+                "name": "학습 분석",
+                "nameEn": "learning analytics",
+                "frequency": 72,
+                "growth": 28
+            },
+            {
+                "name": "사회적 주석",
+                "nameEn": "social annotation",
+                "frequency": 65,
+                "growth": 35
+            }
+        ]
+    },
+    "jls": {
+        "journalId": "jls",
+        "keywords": [
+            {
+                "name": "지식 구축",
+                "nameEn": "knowledge building",
+                "frequency": 90,
+                "growth": 15
+            },
+            {
+                "name": "설계 기반 연구",
+                "nameEn": "design-based research",
+                "frequency": 78,
+                "growth": 8
+            },
+            {
+                "name": "전이 학습",
+                "nameEn": "transfer of learning",
+                "frequency": 55,
+                "growth": 22
+            }
+        ]
+    },
+    "etrd": {
+        "journalId": "etrd",
+        "keywords": [
+            {
+                "name": "적응형 학습",
+                "nameEn": "adaptive learning",
+                "frequency": 82,
+                "growth": 38
+            },
+            {
+                "name": "멀티미디어 설계",
+                "nameEn": "multimedia design",
+                "frequency": 68,
+                "growth": 5
+            },
+            {
+                "name": "게임화",
+                "nameEn": "gamification",
+                "frequency": 58,
+                "growth": 45
+            }
+        ]
+    },
+    "comped": {
+        "journalId": "comped",
+        "keywords": [
+            {
+                "name": "생성형 AI",
+                "nameEn": "generative AI",
+                "frequency": 95,
+                "growth": 85
+            },
+            {
+                "name": "학습 분석",
+                "nameEn": "learning analytics",
+                "frequency": 88,
+                "growth": 32
+            },
+            {
+                "name": "온라인 학습",
+                "nameEn": "online learning",
+                "frequency": 75,
+                "growth": -12
+            }
+        ]
+    },
+    "bjet": {
+        "journalId": "bjet",
+        "keywords": [
+            {
+                "name": "디지털 리터러시",
+                "nameEn": "digital literacy",
+                "frequency": 70,
+                "growth": 25
+            },
+            {
+                "name": "교사 전문성 개발",
+                "nameEn": "teacher PD",
+                "frequency": 65,
+                "growth": 18
+            },
+            {
+                "name": "형성 평가",
+                "nameEn": "formative assessment",
+                "frequency": 60,
+                "growth": 30
+            }
+        ]
+    },
+    "ile": {
+        "journalId": "ile",
+        "keywords": [
+            {
+                "name": "가상 현실",
+                "nameEn": "virtual reality",
+                "frequency": 80,
+                "growth": 55
+            },
+            {
+                "name": "지능형 튜터",
+                "nameEn": "intelligent tutoring",
+                "frequency": 72,
+                "growth": 20
+            },
+            {
+                "name": "시뮬레이션 학습",
+                "nameEn": "simulation learning",
+                "frequency": 58,
+                "growth": 12
+            }
+        ]
+    },
+    "jcal": {
+        "journalId": "jcal",
+        "keywords": [
+            {
+                "name": "모바일 학습",
+                "nameEn": "mobile learning",
+                "frequency": 75,
+                "growth": 15
+            },
+            {
+                "name": "개인화 피드백",
+                "nameEn": "personalized feedback",
+                "frequency": 68,
+                "growth": 42
+            },
+            {
+                "name": "혼합 학습",
+                "nameEn": "blended learning",
+                "frequency": 62,
+                "growth": -8
+            }
+        ]
+    },
+    "lti": {
+        "journalId": "lti",
+        "keywords": [
+            {
+                "name": "소셜 미디어 학습",
+                "nameEn": "social media learning",
+                "frequency": 65,
+                "growth": 10
+            },
+            {
+                "name": "비판적 미디어 리터러시",
+                "nameEn": "critical media literacy",
+                "frequency": 58,
+                "growth": 22
+            },
+            {
+                "name": "비형식 학습",
+                "nameEn": "informal learning",
+                "frequency": 52,
+                "growth": 18
+            }
+        ]
+    },
+    "aied": {
+        "journalId": "aied",
+        "keywords": [
+            {
+                "name": "대규모 언어 모델",
+                "nameEn": "large language models",
+                "frequency": 92,
+                "growth": 120
+            },
+            {
+                "name": "자연어 처리",
+                "nameEn": "NLP",
+                "frequency": 85,
+                "growth": 45
+            },
+            {
+                "name": "설명 가능한 AI",
+                "nameEn": "explainable AI",
+                "frequency": 70,
+                "growth": 65
+            }
+        ]
+    },
+    "jrst": {
+        "journalId": "jrst",
+        "keywords": [
+            {
+                "name": "과학적 논증",
+                "nameEn": "scientific argumentation",
+                "frequency": 78,
+                "growth": 12
+            },
+            {
+                "name": "STEM 통합",
+                "nameEn": "STEM integration",
+                "frequency": 72,
+                "growth": 28
+            },
+            {
+                "name": "개념 변화",
+                "nameEn": "conceptual change",
+                "frequency": 65,
+                "growth": 5
+            }
+        ]
+    },
+    "tlt": {
+        "journalId": "tlt",
+        "keywords": [
+            {
+                "name": "학습 관리 시스템",
+                "nameEn": "LMS",
+                "frequency": 70,
+                "growth": -5
+            },
+            {
+                "name": "교육 데이터 마이닝",
+                "nameEn": "educational data mining",
+                "frequency": 68,
+                "growth": 35
+            },
+            {
+                "name": "학습 표준",
+                "nameEn": "learning standards",
+                "frequency": 55,
+                "growth": 8
+            }
+        ]
+    },
+    "ijed": {
+        "journalId": "ijed",
+        "keywords": [
+            {
+                "name": "교육 형평성",
+                "nameEn": "educational equity",
+                "frequency": 75,
+                "growth": 30
+            },
+            {
+                "name": "글로벌 남반구",
+                "nameEn": "Global South",
+                "frequency": 68,
+                "growth": 42
+            },
+            {
+                "name": "교육 접근성",
+                "nameEn": "access to education",
+                "frequency": 60,
+                "growth": 15
+            }
+        ]
+    }
+}
