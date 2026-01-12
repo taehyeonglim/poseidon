@@ -2,7 +2,7 @@ services:
   # Backend API (Web Service)
   - type: web
     name: poseidon-api
-    runtime: node
+    env: node
     plan: free
     buildCommand: npm install --include=dev && npm run build
     startCommand: npm start
@@ -18,9 +18,13 @@ services:
   # Frontend (Static Site)
   - type: web
     name: poseidon-web
-    runtime: static
-    buildCommand: cd client && npm install && npm run build
+    env: static
+    buildCommand: cd client && npm install --include=dev && npm run build
     staticPublishPath: client/dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
     envVars:
       - key: VITE_API_URL
         fromService:
